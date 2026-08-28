@@ -1,0 +1,66 @@
+# ==============================================================================
+# 1. ENVIRONMENT VARIABLES & SECRETS (Never commit these!)
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+auth.json
+
+# ==============================================================================
+# 2. DEPENDENCIES & PACKAGE MANAGERS
+# ==============================================================================
+node_modules/
+bower_components/
+jspm_packages/
+.pnp
+.pnp.js
+
+# ==============================================================================
+# 3. BUILD OUTPUTS, LOGS, & TEMPORARY FILES
+# ==============================================================================
+dist/
+build/
+out/
+*.log
+*.pids
+*.pid
+*.seed
+*.pid.lock
+
+# ==============================================================================
+# 4. OPERATING SYSTEM SPECIFIC FILES
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+
+# ==============================================================================
+# 5. IDE / CODE EDITOR CONFIGURATIONS
+# ==============================================================================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# IntelliJ / WebStorm / PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Visual Studio
+.vs/
+[Bb]in/
+[Oo]bj/
